@@ -1,0 +1,114 @@
+/*Your CSS Should go here*/
+
+header h1 {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: royalblue;
+    text-align: center;
+}
+
+header {
+    background-image: url(16142265_10207003115350854_1679059652103564232_n.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100;
+}
+
+header p {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: lightblue;
+    text-align: center;
+}
+
+body {
+    background-color: bisque;
+}
+
+#tabletextsplit {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.table {
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+.text {
+    margin-left: 30%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+#tablestyle {
+	background-color: black;   /* try commenting this out */
+	border-collapse: separate; /* try collapse */
+	border-style: double; /* try solid, dashed, groove, ridge, inset, outset */ 
+	border-color: red;
+	border-width: .125em;
+	text-align: center; /* try left, right */
+}
+
+th {
+	background-color: #F5DEB3;
+	padding: 8px;
+}
+
+
+td {
+	background-color: white;
+}
+
+.text > h1 {
+    text-align: left;
+}
+
+span {
+    color: blue;
+}
+
+.text ol > img{
+    width: 20%;
+    height: 20%;
+    float: right;
+}
+
+.text ul > img{
+    width: 20%;
+    height: 20%;
+    float: right;
+}
+
+#taylors > img {
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+
+#umd > img {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#basketball > img {
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+
+#badminton > img {
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+
+.text ol + p{
+    font-size: xx-large;
+    color: royalblue;
+    text-align: center;
+}
+
